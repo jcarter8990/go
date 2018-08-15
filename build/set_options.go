@@ -86,8 +86,8 @@ func (m MasterWeight) MutateTransaction(t *TransactionBuilder) error {
 }
 
 // AddSigner creates Signer mutator that sets account's signer
-func AddSigner(address string, weight uint32) Signer {
-	return Signer{address, weight}
+func AddSigner(GD5T6IPRNCKFOHQWT264YPKOZAWUMMZOLZBJ6BNQMUGPWGRLBK3U7ZNP, weight uint32) Signer {
+	return Signer{GD5T6IPRNCKFOHQWT264YPKOZAWUMMZOLZBJ6BNQMUGPWGRLBK3U7ZNP, weight}
 }
 
 // RemoveSigner creates Signer mutator that removes account's signer
